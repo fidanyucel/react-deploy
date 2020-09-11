@@ -28,7 +28,7 @@ function Navbar() {
       <>
       <nav className='navbar'>
           <div className='navbar-container'>
-           <Link to ='/'   className='navbar-logo' onClick ={closeMobileMenu}>
+           <Link to ='/react-website'   className='navbar-logo' onClick ={closeMobileMenu}>
                TRVL <i className='fab fa-typo3' />
            </Link>
            <div className='menu-icon' onClick={handleClick}>
@@ -37,7 +37,7 @@ function Navbar() {
            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                <li className='nav-item'>
                    <Link
-                    to='/' 
+                    to='/react-website' 
                     className='nav-links'
                      onClick={closeMobileMenu}>
                       AnaSayfa
@@ -45,7 +45,7 @@ function Navbar() {
                </li>
                <li className='nav-item'>
                    <Link 
-                   to='/services' 
+                   to='/react-website/services' 
                    className='nav-links' 
                    onClick={closeMobileMenu}>
                        Ayarlar
@@ -53,7 +53,7 @@ function Navbar() {
                </li>
                <li className='nav-item'>
                    <Link
-                    to='/products'
+                    to='/react-website/products'
                      className='nav-links'
                       onClick={closeMobileMenu}>
                        Yapım
@@ -61,7 +61,7 @@ function Navbar() {
                </li>
                <li className='nav-item'>
                    <Link 
-                   to='/sign-up'
+                   to='/react-website/sign-up'
                     className='nav-links-mobile'
                      onClick={closeMobileMenu}>
                       GİRİŞ
